@@ -50,7 +50,7 @@ class export_webserver(object):
         json_array={"registers":{}, "client_config":{}, "inverter_config":{}}
         metrics_body = ""
         main_body = f"""
-            <h3>SunGather v{__version__}</h3></p>
+            <h3>SunGather v{__version__} Custom</h3></p>
             <h4>Need Help? <href a='https://github.com/bohdan-s/SunGather'>https://github.com/bohdan-s/SunGather</a></h4></p>
             <h4>NEW HomeAssistant Add-on: <href a='https://github.com/bohdan-s/hassio-repository'>https://github.com/bohdan-s/SunGather</a></h4></p>
             """
